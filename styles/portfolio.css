@@ -268,10 +268,9 @@ footer button {
   }
   .item-desciption {
     text-align: center;
-
-    footer input,
-    #msg-box {
-      width: 350px;
-    }
+  }
+  #footer-input,
+  #msg-box {
+    width: 350px;
   }
 }
