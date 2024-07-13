@@ -221,29 +221,57 @@ footer input {
 footer button {
   margin-top: 24px;
 }
-.hide {
-  display: none;
-}
 
 /* Responsive Media Query */
 
 @media screen and (max-width: 576px) {
+  .banner,
+  nav,
   .skill-container,
   .resume-container,
   footer,
   .about-items {
     flex-direction: column;
   }
+  .header {
+    background-image: none;
+  }
+  .banner {
+    margin: 20px;
+  }
+  .banner-title {
+    font-size: 53px;
+  }
+  .btn-primary {
+    margin-bottom: 20px;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  .section-description {
+    width: 100%;
+    padding: 2px;
+  }
+  .skill-container {
+    align-items: center;
+  }
+  .resume {
+    width: 100%;
+  }
+  .experience-description {
+    width: 412px;
+  }
+
   footer,
   .about {
     padding: 20px;
   }
-  footer input,
-  #msg-box {
-    width: 350px;
-  }
-  /* For about section */
   .item-desciption {
     text-align: center;
+
+    footer input,
+    #msg-box {
+      width: 350px;
+    }
   }
 }
